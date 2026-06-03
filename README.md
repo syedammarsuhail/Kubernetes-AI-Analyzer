@@ -168,3 +168,13 @@ Follow the official guide for your exact versions:
 - Use least-privilege (read-only) credentials for analysis where possible.
 - Always back up etcd and validate on **non-prod** before production.
 
+---
+
+## Credits
+
+Upgrade-assessment prompt adapted from
+[iam-veeramalla/AI-Kubernetes-Upgrades](https://github.com/iam-veeramalla/AI-Kubernetes-Upgrades).
+
+## License
+
+MIT (or your preferred license — update this section).

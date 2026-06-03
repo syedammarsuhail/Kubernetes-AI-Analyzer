@@ -1,0 +1,58 @@
+# ----------------------------------------------------------------------
+# Generated assessment artifacts
+# These may contain cluster IPs, hostnames, namespace/app names, and
+# other infrastructure detail. Do NOT commit them.
+# ----------------------------------------------------------------------
+k8s-upgrade-*/
+assessments-*/
+*-assessment.md
+report*.md
+*.report.md
+CONTEXT.md
+upgrade-request.md
+
+# ----------------------------------------------------------------------
+# Secrets / credentials — never commit
+# ----------------------------------------------------------------------
+*.kubeconfig
+kubeconfig
+.kube/
+.env
+.env.*
+*.key
+*.pem
+*.crt
+*-key.json
+secrets*.yaml
+secret*.yaml
+
+# Anything that looks like an API key dropped in a scratch file
+*api-key*
+*apikey*
+*.token
+
+# ----------------------------------------------------------------------
+# Tool output / logs
+# ----------------------------------------------------------------------
+*.log
+pluto.txt
+kubent.txt
+raw/
+
+# ----------------------------------------------------------------------
+# OS / editor cruft
+# ----------------------------------------------------------------------
+.DS_Store
+Thumbs.db
+*.swp
+*~
+.idea/
+.vscode/
+
+# ----------------------------------------------------------------------
+# Python (for k8s-agent.py)
+# ----------------------------------------------------------------------
+__pycache__/
+*.pyc
+.venv/
+venv/
