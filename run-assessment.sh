@@ -26,7 +26,7 @@ command -v curl >/dev/null || { echo "need curl" >&2; exit 1; }
 # fetch prompt.md if not supplied
 if [ -z "$PROMPT_FILE" ] || [ ! -f "$PROMPT_FILE" ]; then
   PROMPT_FILE="$(mktemp)"
-  curl -fsSL https://raw.githubusercontent.com/iam-veeramalla/AI-Kubernetes-Upgrades/main/prompt.md -o "$PROMPT_FILE"
+  curl -fsSL https://raw.githubusercontent.com/syedammarsuhail/AI-Kubernetes-Upgrades/main/prompt.md -o "$PROMPT_FILE"
 fi
 
 # substitute versions into the prompt placeholders
