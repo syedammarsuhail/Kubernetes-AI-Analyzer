@@ -170,11 +170,3 @@ Follow the official guide for your exact versions:
 
 ---
 
-## Credits
-
-Upgrade-assessment prompt adapted from
-[iam-veeramalla/AI-Kubernetes-Upgrades](https://github.com/iam-veeramalla/AI-Kubernetes-Upgrades).
-
-## License
-
-MIT (or your preferred license — update this section).
